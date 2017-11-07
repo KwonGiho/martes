@@ -1,0 +1,27 @@
+<component name="libraryTable">
+  <library name="Generated files" type="javaScript">
+    <properties>
+      <sourceFilesUrls>
+        <item url="file://$PROJECT_DIR$/dist/controllers/userController.js" />
+        <item url="file://$PROJECT_DIR$/dist/models/user.js" />
+        <item url="file://$PROJECT_DIR$/dist/app.js" />
+        <item url="file://$PROJECT_DIR$/dist/controllers/userc.js" />
+        <item url="file://$PROJECT_DIR$/dist/routes/router.js" />
+        <item url="file://$PROJECT_DIR$/dist/router/router.js" />
+        <item url="file://$PROJECT_DIR$/dist/config/database.js" />
+        <item url="file://$PROJECT_DIR$/dist/config/responsecode.js" />
+      </sourceFilesUrls>
+    </properties>
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/dist/controllers/userController.js" />
+      <root url="file://$PROJECT_DIR$/dist/models/user.js" />
+      <root url="file://$PROJECT_DIR$/dist/app.js" />
+      <root url="file://$PROJECT_DIR$/dist/controllers/userc.js" />
+      <root url="file://$PROJECT_DIR$/dist/routes/router.js" />
+      <root url="file://$PROJECT_DIR$/dist/router/router.js" />
+      <root url="file://$PROJECT_DIR$/dist/config/database.js" />
+      <root url="file://$PROJECT_DIR$/dist/config/responsecode.js" />
+    </CLASSES>
+    <SOURCES />
+  </library>
+</component>
