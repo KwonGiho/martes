@@ -1,3 +1,7 @@
+DDL
+create table user(email varchar(500) primary key,password varchar(500) not null);
+
+
  * skeleton - http://expressjs.com/ko/starter/generator.html
  * git clone https://github.com/KwonGiho/martes
  * cd marters

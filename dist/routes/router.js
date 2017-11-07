@@ -5,7 +5,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 var UserController = require('../controllers/userController');
 
-/* GET users listing. */
+/* GET user listing. */
 
 var router = function router(app) {
     app.route("/user").post(UserController.register);
