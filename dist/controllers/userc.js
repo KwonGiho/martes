@@ -30,12 +30,14 @@ var findUser = function () {
                 switch (_context.prev = _context.next) {
                     case 0:
                         email = req.query.email;
+
+                        console.log("controllers/userc.js ", email);
                         user = void 0;
-                        _context.prev = 2;
-                        _context.next = 5;
+                        _context.prev = 3;
+                        _context.next = 6;
                         return _user2.default.findUser(email);
 
-                    case 5:
+                    case 6:
                         user = _context.sent;
 
 
@@ -44,22 +46,22 @@ var findUser = function () {
                         } else {
                             res.status(200).json({ code: _responsecode2.default.GET_USERINFO_NOT_EXIST });
                         }
-                        _context.next = 13;
+                        _context.next = 14;
                         break;
 
-                    case 9:
-                        _context.prev = 9;
-                        _context.t0 = _context['catch'](2);
+                    case 10:
+                        _context.prev = 10;
+                        _context.t0 = _context['catch'](3);
 
                         console.log(_context.t0);
                         res.status(500).json({ code: _responsecode2.default.GET_USERINFO_FAIL });
 
-                    case 13:
+                    case 14:
                     case 'end':
                         return _context.stop();
                 }
             }
-        }, _callee, this, [[2, 9]]);
+        }, _callee, this, [[3, 10]]);
     }));
 
     return function findUser(_x, _x2) {

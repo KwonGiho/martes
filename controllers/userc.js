@@ -24,6 +24,7 @@ import code from '../config/responsecode';
  */
 async function findUser(req,res) {
     let email = req.query.email;
+    console.log("controllers/userc.js ",email);
     let user;
     try {
         user = await User.findUser(email);
