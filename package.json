@@ -18,7 +18,9 @@
   },
   "homepage": "https://github.com/donghyunele/nobel#readme",
   "dependencies": {
+    "babel-preset-stage-0": "^6.24.1",
     "react": "^16.1.0",
+    "react-addons-update": "^15.6.2",
     "react-dom": "^16.1.0"
   },
   "devDependencies": {
